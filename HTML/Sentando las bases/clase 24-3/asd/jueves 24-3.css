@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(0,105,0,0.2)
+}
+
+#firstBox > h1{
+    text-transform: lowercase;
+}
+
+#firstBox > h1:hover{
+    color:bisque;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#heritage_box{
+    color:red;
+}
+#main {
+    border: none;
+    border-radius: 1px;
+    color: blueviolet;
+    padding: 5px;
+}
+
+#main:hover {
+    background-color: aquamarine;
+    font-size: 25px;
+}
+

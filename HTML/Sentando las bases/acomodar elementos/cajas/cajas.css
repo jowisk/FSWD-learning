@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    display:block;
+    width: 50%;
+    margin:auto;
+    justify-content: center;
+}
+#text_content {
+    background-color:white;
+    display:block;
+    width:50%;
+    float:left;
+}
+
+#image_content {
+    background-color:blue;
+    display:block;
+    width: 50%;
+    float:right;
+}
+
+#parent_container {
+    width:800px;
+}

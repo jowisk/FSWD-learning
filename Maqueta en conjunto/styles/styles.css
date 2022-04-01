@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.block_full_width{
+    display:block;
+    width: 100%;
+    width: 100%;
+}
+
+.block_full_height {
+    display: block;
+    height: 100%;
+}
+
+#big_container {
+    background: rgb(0, 191, 255); 
+    height: 95%;
+}
+
+main {
+    background: lightcoral;
+    display:block;
+    height:100vh;
+    width: 100vw;
+}
+
+#left_container {
+    float:left;
+    width:25%;
+    background: black;
+}
+
+nav {
+    background: lightblue;
+    height: 5%;
+}
+

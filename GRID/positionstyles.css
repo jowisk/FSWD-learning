@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    background: lightslategray;
+
+    grid-template-areas: "header header header"
+                         "nav article ads"
+                         "nav footer footer";
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 80% 10%;
+    gap: 15px;
+    display: grid;
+    height:100vh;
+    width: 100%;
+}
+
+header {
+    background:lightcoral;
+    grid-area: header;
+}
+
+nav {
+    background: lightgoldenrodyellow;
+    grid-area: nav;
+}
+
+article {
+    background:lightgreen;
+    grid-area: article;
+}
+
+aside {
+    background: lightpink;
+    grid-area: ads;
+}
+
+footer {
+    background:lightsalmon;
+    grid-area:footer;
+}

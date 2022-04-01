@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Jerarquía HTML </title>
+    <style>
+        p {
+            color: rgb(255, 0, 0);
+        }
+        /*. es para seleccionar clases */
+        .textoAzul {
+            color: blue;
+        }
+        /* # es para seleccionar IDs */
+        #textoVerde{
+            color: green;
+        }
+
+        /* !important sobreescribe cualquier otra regla*/
+
+    </style>
+</head>
+
+<body>
+    <p>Texto de prueba</p>
+    <p class="textoAzul">texto azul</p>
+    <p class="textoAzul" id="textoVerde">texto verde</p>
+    <p class="textoAzul" id="textoVerde" style="color:purple">texto violeta</p>
+</body>
+</html>

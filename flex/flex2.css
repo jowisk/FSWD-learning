@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#ads {
+    background: limegreen;
+    height: 90%;
+    width: 20%;
+}
+
+article {
+    background: lightsalmon;
+    height: 90%;
+    width: 80%;
+}
+
+footer {
+    background: orange;
+    height: 10%;
+    width: 100%;
+}
+
+header{
+    background: lightgreen;
+    display: block;
+    height: 10%;
+    width: 100%;
+
+}
+
+#main_container{
+    background: lightgray;
+    display: flex;
+    flex-direction:row;
+    height: 90%;
+    width: 100%;   
+}
+
+#left_container{
+    background: lightcoral;
+    width: 20%;
+    height:100%;
+}
+
+#right_container{ 
+    background: lightcyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height:100%;
+
+}

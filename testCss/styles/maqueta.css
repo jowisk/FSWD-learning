@@ -1,0 +1,46 @@
+body {
+  background: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+#detail {
+  display: block;
+  float: right;
+  height: 100%;
+  width: 70%
+}
+
+#product_list {
+  display: block;
+  background: white;
+  float: left;
+  height: 100%;
+  width: 30%
+}
+
+.product_preview {
+  border-bottom: 2px gray solid;
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+.product_preview > .thumbnail {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 30%;
+}
+
+.product_preview > .thumbnail img {
+  display: block;
+  margin: auto;
+}
+
+.product_preview > .description {
+  display: block;
+  float: right;
+  height: 100%;
+  width: 70%;
+}

@@ -1,0 +1,43 @@
+/* 
+  Jerarquia: de lo menos especifico a lo mas especifico
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fcontent.breatheco.de%2Fes%2Flesson%2Fwhat-is-css-learn-css&psig=AOvVaw1fpmkSnJ1c513QMtppnbSj&ust=1648248445405000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCBqYzq3_YCFQAAAAAdAAAAABAD
+  - Estilos en el tag
+  - Estilos en un class (.)
+  - Estilos en un id (#)
+  - Estilos inline (en el tag de HTML)
+
+
+*/
+
+
+
+body {
+  /* */
+  background-color: gray;
+}
+
+#first_box > h1 {
+  color: white;
+  text-transform: lowercase;
+}
+
+#first_box > h1:hover {
+  color: red;
+}
+
+#heritage_box {
+  color: pink;
+}
+
+#main {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+#main:hover {
+  background-color: blueviolet;
+  font-size: 25px;
+}

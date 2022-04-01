@@ -1,0 +1,32 @@
+.bloqueInfo {
+    background-color: #eb8f34; 
+    border-radius: 8px;
+    box-shadow: black;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;   
+}
+
+body{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#imagen {
+    height: 200px;
+    width: 100%;
+
+.imgHeader {
+    display:flex;
+    justify-content: center;
+}
+
+}
+
+header{
+    text-align: center;
+}

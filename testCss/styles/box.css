@@ -1,0 +1,39 @@
+body {
+  background: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+#image_content {
+  background-color: blue;
+  display: block;
+  float: right;
+  margin: auto;
+  width: 50%;
+}
+
+#parent_content {
+  background: lightcoral;
+}
+
+.parent {
+  background-color: yellow;
+  display: block;
+  float: left;
+  height: 500px;
+  width: 50%;
+}
+
+#text_content {
+  background-color: white;
+  display: block;
+  float: left;
+  width: 50%;
+}
+
